@@ -1,0 +1,17 @@
+{
+    "name": "lijinma/php-cli-color",
+    "description": "Make colorful CLI output easy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jinma li",
+            "email": "lijinma@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lijinma\\": "src"
+        }
+    }
+}
