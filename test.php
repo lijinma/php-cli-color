@@ -10,9 +10,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 
 $colorClass = new ReflectionClass ('Lijinma\Color');
-$constants = $colorClass->getConstants ();
+$constants = $colorClass->getConstants();
 
-foreach($constants as $key => $value) {
+foreach ($constants as $key => $value) {
     if (strpos($key, 'BG') !== false) {
         echo $value . "My background color is $key" . PHP_EOL;
     } else {

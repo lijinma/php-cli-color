@@ -11,7 +11,7 @@ Make php colorful CLI output easy
 
 ##How to use
 
-```
+```php
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
